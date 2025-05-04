@@ -36,3 +36,14 @@ print("This\tis\t\t\t\t\t\t\ttabbed")
 
 print("My name is", "Vit", "and I am", 30, "years old.")
 
+print (' That\'s hello')
+
+print("Hello"  + "  " + "World")
+
+print("""This is line1.
+This is line2.
+This is line3.
+""")
+
+
+
