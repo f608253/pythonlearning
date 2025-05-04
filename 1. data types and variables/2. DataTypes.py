@@ -33,5 +33,16 @@ print('Age:' , age)
 print('Height:' , height_meters)
 print('Are you a student?' , is_student)
 
+#Find data types
+
+print(type(42))
+print(type(3.14))
+print(type("Hello,world!"))
+print(type(True))
+print(type(-7))
+print(type("42"))
+print(type(False))
+print(type(0.0))
+
 
 
