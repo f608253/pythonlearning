@@ -45,7 +45,7 @@ This is line2.
 This is line3.
 """)
 
-print("""\\n - Starts a new line
+print("""\\n - Starts a new line.
 \\t - Adds a tab
 \\ - Prints a backslash
 \" - Prints a double quote
