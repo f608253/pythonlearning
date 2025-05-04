@@ -52,5 +52,15 @@ print("""\\n - Starts a new line.
 \' - Prints a single quote
 """)
 
+#New line ways
+
+print()
+print("New line here")
+print()
+print("New Line1\n\nNew Line3")
+print()
+print("""Line1
+
+Line3""")
 
 
