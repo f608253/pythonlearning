@@ -25,3 +25,13 @@ print(type(pi))
 print(type(name))
 print(type(is_new))
 
+height_meters = 1.60
+is_student = True
+
+print('Name:' , name)
+print('Age:' , age)
+print('Height:' , height_meters)
+print('Are you a student?' , is_student)
+
+
+
