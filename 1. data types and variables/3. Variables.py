@@ -26,3 +26,8 @@ name = name + " is my name"
 is_student = True
 
 print(f"Modified values: Age: {age}, Height: {height}, Name: {name}, Is Student: {is_student}")
+
+# OutPut:
+# C:\Users\MANVENDRA\PycharmProjects\pythonProject\.venv\Scripts\python.exe "C:\Users\MANVENDRA\PycharmProjects\PythonLearning\1. data types and variables\3. Variables.py"
+# Original values: Age: 27, Height: 1.85, Name: Manav, Is Student: False
+# Modified values: Age: 28, Height: 185.0, Name: Manav is my name, Is Student: True
