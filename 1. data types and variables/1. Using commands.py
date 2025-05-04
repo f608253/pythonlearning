@@ -9,3 +9,30 @@ print(f"My name is {name} and age is {age}")
 print("First Line\nSecond Line\n\tIndent Line")
 
 print("Hello", "World", sep="-", end="!")
+
+print("Hello" + "World")  # Correct
+print("Hello", "World")   # Prints with a space in between
+
+#Mixing strings and numbers without conversion:
+
+age = 30
+print("I am " + str(age) + " years old.")  # Correct
+#print("I am " + age + " years old.")  # TypeError
+
+print("Hello, World!")
+
+print("I'm learning Python!")
+print("This is so much fun!")
+print("I can't wait to learn more!")
+
+print('This is a string with single quotes.')
+print("This is a string with double quotes.")
+
+print("He said, 'Python is awesome!'")
+print('She replied, "I totally agree!"')
+
+print("First line\nSecond line")
+print("This\tis\t\t\t\t\t\t\ttabbed")
+
+print("My name is", "Vit", "and I am", 30, "years old.")
+
