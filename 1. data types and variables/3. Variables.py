@@ -58,6 +58,34 @@ print(AGE)
 #if = 5        # This too
 print("Hello JI")
 
+#Best practices while giving variable name
+# 1. Be descriptive
+# 2. Use underscore for spaces
+# 3. Keep it simple
+max_speed = 300   # This is fine
+maximum_speed_of_car_on_highway = 300   #Too long name
+
+#Length of a string
+#Using len() function to get the length of a string
+greeting = "Hello, world!"
+print(f"Greeting is: {greeting}")  #Output: Greeting is: Hello, world!
+print(len(greeting)) #Output: 13
+
+#Indexing
+print(greeting[0])  #Prints first index of greeting string
+print(greeting[-1])  #Prints last character
+
+#Slicing
+#The syntax is string[start:end:step]
+print(greeting[0:3]) #Hel
+print(greeting[1:5]) #ello
+print(greeting[::-1]) #!dlrow ,olleH
+print(greeting[::1])  #Hello, world!
+
+
+
+
+
 
 
 
