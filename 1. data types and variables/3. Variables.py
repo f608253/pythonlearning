@@ -82,6 +82,26 @@ print(greeting[1:5]) #ello
 print(greeting[::-1]) #!dlrow ,olleH
 print(greeting[::1])  #Hello, world!
 
+#Concatenation
+full_name = name + ' Singh Yadav'
+print(full_name)  #Manav is my name Singh Yadav
+
+#Repetetion with *
+name = 'Alice'
+chant = name*4
+print(chant)  #AliceAliceAliceAlice
+
+#Using string methods
+print(name.upper())  #ALICE
+print(name.lower())  #alice
+
+#search and replace
+print(name.replace('l','x'))  #Axice
+
+#Uppercase
+print(greeting.upper())
+print(greeting.lower())
+
 
 
 
