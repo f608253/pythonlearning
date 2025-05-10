@@ -63,4 +63,11 @@ print("""Line1
 
 Line3.""")
 
+x = 10 #This is a comment
+y = 20
+z = x + y
+print(x)
+print(z)
+
+
 
