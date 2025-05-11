@@ -15,6 +15,15 @@ print(f"Quantity (integer): {quantity}, Type: {type(quantity)}")
 print(f"Total Cost (likely float): {total_cost}, Type: {type(total_cost)}")
 print(f"Total Cost (integer): {total_cost_int}, Type: {type(total_cost_int)}")
 
+#Outputs
+
+# C:\Users\MANVENDRA\PycharmProjects\pythonProject\.venv\Scripts\python.exe C:\Users\MANVENDRA\PycharmProjects\PythonLearning\Operators\type_conversion.py
+# Price (string): 19.99, Type: <class 'str'>
+# Price (float): 19.99, Type: <class 'float'>
+# Quantity (integer): 5, Type: <class 'int'>
+# Total Cost (likely float): 99.94999999999999, Type: <class 'float'>
+# Total Cost (integer): 99, Type: <class 'int'>
+
 #pritning an integer with python
 print(430)
 
@@ -31,12 +40,16 @@ print( "100 + {} = {}".format(temp,result))
 
 print(f"100 + {temp} = {result}")
 
+#Note - In above example - if you give a string value as inout to temp - it will throw error.
 
-#Outputs
+#Error
+# Type a number to add: hello
+# <class 'str'>
+# Traceback (most recent call last):
+#   File "C:\Users\MANVENDRA\PycharmProjects\PythonLearning\Operators\type_conversion.py", line 27, in <module>
+#     result = 100 + int(temp)
+#                    ~~~^^^^^^
+# ValueError: invalid literal for int() with base 10: 'hello'
+#
+# Process finished with exit code 1
 
-# C:\Users\MANVENDRA\PycharmProjects\pythonProject\.venv\Scripts\python.exe C:\Users\MANVENDRA\PycharmProjects\PythonLearning\Operators\type_conversion.py
-# Price (string): 19.99, Type: <class 'str'>
-# Price (float): 19.99, Type: <class 'float'>
-# Quantity (integer): 5, Type: <class 'int'>
-# Total Cost (likely float): 99.94999999999999, Type: <class 'float'>
-# Total Cost (integer): 99, Type: <class 'int'>
