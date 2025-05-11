@@ -21,6 +21,17 @@ print(430)
 #printing a string made of integer (number) characters in python
 print("430")
 print('420')
+
+temp = input("Type a number to add: ")
+print( type (temp))
+result = 100 + int(temp)
+print( "100 + {} = {}".format(temp,result))
+
+#or
+
+print(f"100 + {temp} = {result}")
+
+
 #Outputs
 
 # C:\Users\MANVENDRA\PycharmProjects\pythonProject\.venv\Scripts\python.exe C:\Users\MANVENDRA\PycharmProjects\PythonLearning\Operators\type_conversion.py
