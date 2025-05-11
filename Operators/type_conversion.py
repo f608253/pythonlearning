@@ -15,7 +15,12 @@ print(f"Quantity (integer): {quantity}, Type: {type(quantity)}")
 print(f"Total Cost (likely float): {total_cost}, Type: {type(total_cost)}")
 print(f"Total Cost (integer): {total_cost_int}, Type: {type(total_cost_int)}")
 
+#pritning an integer with python
+print(430)
 
+#printing a string made of integer (number) characters in python
+print("430")
+print('420')
 #Outputs
 
 # C:\Users\MANVENDRA\PycharmProjects\pythonProject\.venv\Scripts\python.exe C:\Users\MANVENDRA\PycharmProjects\PythonLearning\Operators\type_conversion.py
