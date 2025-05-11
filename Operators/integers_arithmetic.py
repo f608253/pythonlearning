@@ -26,3 +26,16 @@ average_cost = total_spent / number_of_items
 print("You spent in $", total_spent)
 print("You have in $", money_left, "left")
 print("The average cost per item is $", average_cost)
+
+#Integer vs float
+print(type(4+2))
+print(type(2-4))
+print(type(8/2))
+print(type(3.2*5.1))
+print(type(300*4566))
+
+#Division - gives a float always
+print(12 / 3)
+
+#Integer division - gives an integer
+print(12 // 3)
