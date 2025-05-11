@@ -53,3 +53,23 @@ print(f"100 + {temp} = {result}")
 #
 # Process finished with exit code 1
 
+#Handling errors
+#try except block
+
+try:
+    temp = float( input("Type a number to add: "))
+    print( "100 + {} = {}".format(temp, 100 + temp))
+except:
+    print("You did not put the valid number!!")
+# without try/except print statement would not get hit if error occurs
+print("The program did not break")
+
+# Type a number to add: numw
+# You did not put the valid number!!
+# The program did not break
+
+# Type a number to add: 12
+# 100 + 12.0 = 112.0
+# The program did not break
+
+
