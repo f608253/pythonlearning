@@ -11,5 +11,5 @@ f_length = len(full_name)
 print(f"Full name length is: {f_length}")
 # Print out the full_name in all uppercase letters.
 print(f"Name in Uppercase is: {full_name.upper()}")
-# Print out the full_name in a all lowercase letters.
+# Print out the full_name in an all lowercase letters.
 print(f"Name in lowercase is: {full_name.lower()}")
